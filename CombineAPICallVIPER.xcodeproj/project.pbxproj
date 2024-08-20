@@ -18,6 +18,8 @@
 		0940315A2C74154F00E7427A /* TVShowSearchRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094031592C74154F00E7427A /* TVShowSearchRouterProtocol.swift */; };
 		0940315C2C74170400E7427A /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0940315B2C74170400E7427A /* URLConstants.swift */; };
 		0940315F2C74177400E7427A /* TVShowSearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0940315E2C74177400E7427A /* TVShowSearchRouter.swift */; };
+		094031622C74215700E7427A /* TVShowServiceImplTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094031612C74215700E7427A /* TVShowServiceImplTests.swift */; };
+		094031642C7421FC00E7427A /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094031632C7421FC00E7427A /* MockURLProtocol.swift */; };
 		0942995C2C740F870056F6D1 /* CombineAPICallVIPERApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942995B2C740F870056F6D1 /* CombineAPICallVIPERApp.swift */; };
 		0942995E2C740F870056F6D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942995D2C740F870056F6D1 /* ContentView.swift */; };
 		094299602C740F8B0056F6D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0942995F2C740F8B0056F6D1 /* Assets.xcassets */; };
@@ -57,6 +59,8 @@
 		0940315B2C74170400E7427A /* URLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
 		0940315E2C74177400E7427A /* TVShowSearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowSearchRouter.swift; sourceTree = "<group>"; };
 		094031602C74187E00E7427A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		094031612C74215700E7427A /* TVShowServiceImplTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowServiceImplTests.swift; sourceTree = "<group>"; };
+		094031632C7421FC00E7427A /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
 		094299582C740F870056F6D1 /* CombineAPICallVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineAPICallVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0942995B2C740F870056F6D1 /* CombineAPICallVIPERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineAPICallVIPERApp.swift; sourceTree = "<group>"; };
 		0942995D2C740F870056F6D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,6 +120,7 @@
 				094031492C7410F400E7427A /* TVShowServiceProtocol.swift */,
 				094031572C74146600E7427A /* TVShowSearchInteractorProtocol.swift */,
 				094031592C74154F00E7427A /* TVShowSearchRouterProtocol.swift */,
+				094031632C7421FC00E7427A /* MockURLProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -213,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				0942996C2C740F8B0056F6D1 /* CombineAPICallVIPERTests.swift */,
+				094031612C74215700E7427A /* TVShowServiceImplTests.swift */,
 			);
 			path = CombineAPICallVIPERTests;
 			sourceTree = "<group>";
@@ -363,6 +369,7 @@
 				094031582C74146600E7427A /* TVShowSearchInteractorProtocol.swift in Sources */,
 				094031562C7413E600E7427A /* TVShowSearchInteractor.swift in Sources */,
 				0940314E2C74126000E7427A /* AppStyles.swift in Sources */,
+				094031642C7421FC00E7427A /* MockURLProtocol.swift in Sources */,
 				094031502C7412A100E7427A /* AppColors.swift in Sources */,
 				0942995E2C740F870056F6D1 /* ContentView.swift in Sources */,
 				0940315C2C74170400E7427A /* URLConstants.swift in Sources */,
@@ -376,6 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				094031622C74215700E7427A /* TVShowServiceImplTests.swift in Sources */,
 				0942996D2C740F8B0056F6D1 /* CombineAPICallVIPERTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
