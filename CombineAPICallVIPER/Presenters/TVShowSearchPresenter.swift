@@ -1,7 +1,7 @@
 import Combine
 import Foundation
 
-class TVShowSearchPresenter: ObservableObject {
+class TVShowSearchPresenter: ObservableObject, TVShowSearchPresenterProtocol {
     @Published var tvShowSearch: TVShowSearch?  // Holds the search results
     @Published var error: Error?  // Tracks any errors during the search process
     

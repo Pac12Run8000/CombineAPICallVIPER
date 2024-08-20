@@ -33,6 +33,12 @@
 		0995F3762C7432E800863CF1 /* TVShowSearchPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995F3752C7432E800863CF1 /* TVShowSearchPresenterTests.swift */; };
 		0995F3782C74376900863CF1 /* TVShowSearchInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995F3772C74376900863CF1 /* TVShowSearchInteractorTests.swift */; };
 		0995F37A2C743B1400863CF1 /* TVShowSearchRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995F3792C743B1400863CF1 /* TVShowSearchRouterTests.swift */; };
+		0995F37C2C75140800863CF1 /* MockTVShowSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995F37B2C75140800863CF1 /* MockTVShowSearchPresenter.swift */; };
+		0995F37E2C7514AE00863CF1 /* TVShowSearchPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995F37D2C7514AE00863CF1 /* TVShowSearchPresenterProtocol.swift */; };
+		0995F3802C75153200863CF1 /* ContentViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995F37F2C75153200863CF1 /* ContentViewTests.swift */; };
+		0995F3822C75181800863CF1 /* ObservableTVShowSearchPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995F3812C75181800863CF1 /* ObservableTVShowSearchPresenterProtocol.swift */; };
+		0995F3842C751FE700863CF1 /* MockTVShowSearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995F3832C751FE700863CF1 /* MockTVShowSearchInteractor.swift */; };
+		0995F3862C75215C00863CF1 /* MockTVShowSearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995F3852C75215C00863CF1 /* MockTVShowSearchRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +89,12 @@
 		0995F3752C7432E800863CF1 /* TVShowSearchPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowSearchPresenterTests.swift; sourceTree = "<group>"; };
 		0995F3772C74376900863CF1 /* TVShowSearchInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowSearchInteractorTests.swift; sourceTree = "<group>"; };
 		0995F3792C743B1400863CF1 /* TVShowSearchRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowSearchRouterTests.swift; sourceTree = "<group>"; };
+		0995F37B2C75140800863CF1 /* MockTVShowSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTVShowSearchPresenter.swift; sourceTree = "<group>"; };
+		0995F37D2C7514AE00863CF1 /* TVShowSearchPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowSearchPresenterProtocol.swift; sourceTree = "<group>"; };
+		0995F37F2C75153200863CF1 /* ContentViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewTests.swift; sourceTree = "<group>"; };
+		0995F3812C75181800863CF1 /* ObservableTVShowSearchPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableTVShowSearchPresenterProtocol.swift; sourceTree = "<group>"; };
+		0995F3832C751FE700863CF1 /* MockTVShowSearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTVShowSearchInteractor.swift; sourceTree = "<group>"; };
+		0995F3852C75215C00863CF1 /* MockTVShowSearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTVShowSearchRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +145,8 @@
 				094031572C74146600E7427A /* TVShowSearchInteractorProtocol.swift */,
 				094031592C74154F00E7427A /* TVShowSearchRouterProtocol.swift */,
 				094031632C7421FC00E7427A /* MockURLProtocol.swift */,
+				0995F37D2C7514AE00863CF1 /* TVShowSearchPresenterProtocol.swift */,
+				0995F3812C75181800863CF1 /* ObservableTVShowSearchPresenterProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -167,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				094031552C7413E600E7427A /* TVShowSearchInteractor.swift */,
+				0995F3832C751FE700863CF1 /* MockTVShowSearchInteractor.swift */,
 			);
 			path = Interactors;
 			sourceTree = "<group>";
@@ -175,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				0940315E2C74177400E7427A /* TVShowSearchRouter.swift */,
+				0995F3852C75215C00863CF1 /* MockTVShowSearchRouter.swift */,
 			);
 			path = Routers;
 			sourceTree = "<group>";
@@ -237,6 +253,8 @@
 				0995F3752C7432E800863CF1 /* TVShowSearchPresenterTests.swift */,
 				0995F3772C74376900863CF1 /* TVShowSearchInteractorTests.swift */,
 				0995F3792C743B1400863CF1 /* TVShowSearchRouterTests.swift */,
+				0995F37B2C75140800863CF1 /* MockTVShowSearchPresenter.swift */,
+				0995F37F2C75153200863CF1 /* ContentViewTests.swift */,
 			);
 			path = CombineAPICallVIPERTests;
 			sourceTree = "<group>";
@@ -381,6 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				094031472C7410C400E7427A /* TVShowServiceImpl.swift in Sources */,
+				0995F37E2C7514AE00863CF1 /* TVShowSearchPresenterProtocol.swift in Sources */,
 				094031442C74106E00E7427A /* TVShowSearch.swift in Sources */,
 				0940315A2C74154F00E7427A /* TVShowSearchRouterProtocol.swift in Sources */,
 				0940314A2C7410F400E7427A /* TVShowServiceProtocol.swift in Sources */,
@@ -392,7 +411,10 @@
 				0942995E2C740F870056F6D1 /* ContentView.swift in Sources */,
 				0940315C2C74170400E7427A /* URLConstants.swift in Sources */,
 				0942995C2C740F870056F6D1 /* CombineAPICallVIPERApp.swift in Sources */,
+				0995F3862C75215C00863CF1 /* MockTVShowSearchRouter.swift in Sources */,
+				0995F3842C751FE700863CF1 /* MockTVShowSearchInteractor.swift in Sources */,
 				0940315F2C74177400E7427A /* TVShowSearchRouter.swift in Sources */,
+				0995F3822C75181800863CF1 /* ObservableTVShowSearchPresenterProtocol.swift in Sources */,
 				094031532C74138A00E7427A /* TVShowSearchPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0995F37C2C75140800863CF1 /* MockTVShowSearchPresenter.swift in Sources */,
 				094031622C74215700E7427A /* TVShowServiceImplTests.swift in Sources */,
 				0995F3722C74283C00863CF1 /* AppColorsTests.swift in Sources */,
 				0942996D2C740F8B0056F6D1 /* CombineAPICallVIPERTests.swift in Sources */,
@@ -408,6 +431,7 @@
 				0995F3742C742BA800863CF1 /* AppStylesTests.swift in Sources */,
 				0995F37A2C743B1400863CF1 /* TVShowSearchRouterTests.swift in Sources */,
 				0995F3762C7432E800863CF1 /* TVShowSearchPresenterTests.swift in Sources */,
+				0995F3802C75153200863CF1 /* ContentViewTests.swift in Sources */,
 				094031662C7424D500E7427A /* URLConstantsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

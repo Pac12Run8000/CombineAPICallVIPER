@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var presenter: TVShowSearchPresenter
+    @ObservedObject var presenter: TVShowSearchPresenter  // Use the concrete type
     @State private var searchText = ""
 
     var body: some View {
