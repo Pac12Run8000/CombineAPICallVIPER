@@ -1,10 +1,3 @@
-//
-//  TVShowSearchInteractorTests.swift
-//  CombineAPICallVIPERTests
-//
-//  Created by Norbert Grover on 8/19/24.
-//
-
 import XCTest
 import Combine
 @testable import CombineAPICallVIPER
