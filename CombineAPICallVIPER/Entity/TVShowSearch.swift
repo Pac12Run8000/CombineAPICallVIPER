@@ -12,7 +12,7 @@ struct TVShowSearch: Codable {
     }
 }
 
-struct Result: Codable, Identifiable {
+struct Result: Codable, Identifiable, Equatable {
     let adult: Bool
     let backdropPath: String?
     let genreIDS: [Int]
@@ -40,5 +40,23 @@ struct Result: Codable, Identifiable {
         case voteAverage = "vote_average"
         case voteCount = "vote_count"
     }
+    
+    // Equatable conformance
+       static func == (lhs: Result, rhs: Result) -> Bool {
+           return lhs.id == rhs.id &&
+                  lhs.adult == rhs.adult &&
+                  lhs.backdropPath == rhs.backdropPath &&
+                  lhs.genreIDS == rhs.genreIDS &&
+                  lhs.originCountry == rhs.originCountry &&
+                  lhs.originalLanguage == rhs.originalLanguage &&
+                  lhs.originalName == rhs.originalName &&
+                  lhs.overview == rhs.overview &&
+                  lhs.popularity == rhs.popularity &&
+                  lhs.posterPath == rhs.posterPath &&
+                  lhs.firstAirDate == rhs.firstAirDate &&
+                  lhs.name == rhs.name &&
+                  lhs.voteAverage == rhs.voteAverage &&
+                  lhs.voteCount == rhs.voteCount
+       }
 }
 

@@ -30,6 +30,7 @@
 		094299792C740F8B0056F6D1 /* CombineAPICallVIPERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094299782C740F8B0056F6D1 /* CombineAPICallVIPERUITestsLaunchTests.swift */; };
 		0995F3722C74283C00863CF1 /* AppColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995F3712C74283C00863CF1 /* AppColorsTests.swift */; };
 		0995F3742C742BA800863CF1 /* AppStylesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995F3732C742BA800863CF1 /* AppStylesTests.swift */; };
+		0995F3762C7432E800863CF1 /* TVShowSearchPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995F3752C7432E800863CF1 /* TVShowSearchPresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		094299782C740F8B0056F6D1 /* CombineAPICallVIPERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineAPICallVIPERUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0995F3712C74283C00863CF1 /* AppColorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColorsTests.swift; sourceTree = "<group>"; };
 		0995F3732C742BA800863CF1 /* AppStylesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStylesTests.swift; sourceTree = "<group>"; };
+		0995F3752C7432E800863CF1 /* TVShowSearchPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowSearchPresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 				094031652C7424D500E7427A /* URLConstantsTests.swift */,
 				0995F3712C74283C00863CF1 /* AppColorsTests.swift */,
 				0995F3732C742BA800863CF1 /* AppStylesTests.swift */,
+				0995F3752C7432E800863CF1 /* TVShowSearchPresenterTests.swift */,
 			);
 			path = CombineAPICallVIPERTests;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 				0995F3722C74283C00863CF1 /* AppColorsTests.swift in Sources */,
 				0942996D2C740F8B0056F6D1 /* CombineAPICallVIPERTests.swift in Sources */,
 				0995F3742C742BA800863CF1 /* AppStylesTests.swift in Sources */,
+				0995F3762C7432E800863CF1 /* TVShowSearchPresenterTests.swift in Sources */,
 				094031662C7424D500E7427A /* URLConstantsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
