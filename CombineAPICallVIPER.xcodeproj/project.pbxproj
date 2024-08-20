@@ -32,6 +32,7 @@
 		0995F3742C742BA800863CF1 /* AppStylesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995F3732C742BA800863CF1 /* AppStylesTests.swift */; };
 		0995F3762C7432E800863CF1 /* TVShowSearchPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995F3752C7432E800863CF1 /* TVShowSearchPresenterTests.swift */; };
 		0995F3782C74376900863CF1 /* TVShowSearchInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995F3772C74376900863CF1 /* TVShowSearchInteractorTests.swift */; };
+		0995F37A2C743B1400863CF1 /* TVShowSearchRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995F3792C743B1400863CF1 /* TVShowSearchRouterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		0995F3732C742BA800863CF1 /* AppStylesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStylesTests.swift; sourceTree = "<group>"; };
 		0995F3752C7432E800863CF1 /* TVShowSearchPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowSearchPresenterTests.swift; sourceTree = "<group>"; };
 		0995F3772C74376900863CF1 /* TVShowSearchInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowSearchInteractorTests.swift; sourceTree = "<group>"; };
+		0995F3792C743B1400863CF1 /* TVShowSearchRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowSearchRouterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +236,7 @@
 				0995F3732C742BA800863CF1 /* AppStylesTests.swift */,
 				0995F3752C7432E800863CF1 /* TVShowSearchPresenterTests.swift */,
 				0995F3772C74376900863CF1 /* TVShowSearchInteractorTests.swift */,
+				0995F3792C743B1400863CF1 /* TVShowSearchRouterTests.swift */,
 			);
 			path = CombineAPICallVIPERTests;
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 				0942996D2C740F8B0056F6D1 /* CombineAPICallVIPERTests.swift in Sources */,
 				0995F3782C74376900863CF1 /* TVShowSearchInteractorTests.swift in Sources */,
 				0995F3742C742BA800863CF1 /* AppStylesTests.swift in Sources */,
+				0995F37A2C743B1400863CF1 /* TVShowSearchRouterTests.swift in Sources */,
 				0995F3762C7432E800863CF1 /* TVShowSearchPresenterTests.swift in Sources */,
 				094031662C7424D500E7427A /* URLConstantsTests.swift in Sources */,
 			);

@@ -1,10 +1,10 @@
 import SwiftUI
 
 class TVShowSearchRouter: TVShowSearchRouterProtocol {
-    
+    var navigateToDetailsHandler: ((Result) -> Void)?
+
     func navigateToDetails(for show: Result) {
-        // Handle navigation to details view
-        print("Navigating to details for: \(show.name)")
+        navigateToDetailsHandler?(show)
     }
 
     static func createModule() -> some View {
