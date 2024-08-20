@@ -20,6 +20,7 @@
 		0940315F2C74177400E7427A /* TVShowSearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0940315E2C74177400E7427A /* TVShowSearchRouter.swift */; };
 		094031622C74215700E7427A /* TVShowServiceImplTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094031612C74215700E7427A /* TVShowServiceImplTests.swift */; };
 		094031642C7421FC00E7427A /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094031632C7421FC00E7427A /* MockURLProtocol.swift */; };
+		094031662C7424D500E7427A /* URLConstantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094031652C7424D500E7427A /* URLConstantsTests.swift */; };
 		0942995C2C740F870056F6D1 /* CombineAPICallVIPERApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942995B2C740F870056F6D1 /* CombineAPICallVIPERApp.swift */; };
 		0942995E2C740F870056F6D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942995D2C740F870056F6D1 /* ContentView.swift */; };
 		094299602C740F8B0056F6D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0942995F2C740F8B0056F6D1 /* Assets.xcassets */; };
@@ -61,6 +62,7 @@
 		094031602C74187E00E7427A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		094031612C74215700E7427A /* TVShowServiceImplTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowServiceImplTests.swift; sourceTree = "<group>"; };
 		094031632C7421FC00E7427A /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		094031652C7424D500E7427A /* URLConstantsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstantsTests.swift; sourceTree = "<group>"; };
 		094299582C740F870056F6D1 /* CombineAPICallVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineAPICallVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0942995B2C740F870056F6D1 /* CombineAPICallVIPERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineAPICallVIPERApp.swift; sourceTree = "<group>"; };
 		0942995D2C740F870056F6D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 			children = (
 				0942996C2C740F8B0056F6D1 /* CombineAPICallVIPERTests.swift */,
 				094031612C74215700E7427A /* TVShowServiceImplTests.swift */,
+				094031652C7424D500E7427A /* URLConstantsTests.swift */,
 			);
 			path = CombineAPICallVIPERTests;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 			files = (
 				094031622C74215700E7427A /* TVShowServiceImplTests.swift in Sources */,
 				0942996D2C740F8B0056F6D1 /* CombineAPICallVIPERTests.swift in Sources */,
+				094031662C7424D500E7427A /* URLConstantsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
