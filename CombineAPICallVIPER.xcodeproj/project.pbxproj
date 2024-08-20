@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		094031442C74106E00E7427A /* TVShowSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094031432C74106E00E7427A /* TVShowSearch.swift */; };
+		094031472C7410C400E7427A /* TVShowServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094031462C7410C400E7427A /* TVShowServiceImpl.swift */; };
+		0940314A2C7410F400E7427A /* TVShowServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094031492C7410F400E7427A /* TVShowServiceProtocol.swift */; };
+		0940314E2C74126000E7427A /* AppStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0940314D2C74126000E7427A /* AppStyles.swift */; };
+		094031502C7412A100E7427A /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0940314F2C7412A100E7427A /* AppColors.swift */; };
+		094031532C74138A00E7427A /* TVShowSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094031522C74138A00E7427A /* TVShowSearchPresenter.swift */; };
+		094031562C7413E600E7427A /* TVShowSearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094031552C7413E600E7427A /* TVShowSearchInteractor.swift */; };
+		094031582C74146600E7427A /* TVShowSearchInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094031572C74146600E7427A /* TVShowSearchInteractorProtocol.swift */; };
+		0940315A2C74154F00E7427A /* TVShowSearchRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094031592C74154F00E7427A /* TVShowSearchRouterProtocol.swift */; };
+		0940315C2C74170400E7427A /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0940315B2C74170400E7427A /* URLConstants.swift */; };
+		0940315F2C74177400E7427A /* TVShowSearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0940315E2C74177400E7427A /* TVShowSearchRouter.swift */; };
 		0942995C2C740F870056F6D1 /* CombineAPICallVIPERApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942995B2C740F870056F6D1 /* CombineAPICallVIPERApp.swift */; };
 		0942995E2C740F870056F6D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942995D2C740F870056F6D1 /* ContentView.swift */; };
 		094299602C740F8B0056F6D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0942995F2C740F8B0056F6D1 /* Assets.xcassets */; };
@@ -34,6 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		094031432C74106E00E7427A /* TVShowSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowSearch.swift; sourceTree = "<group>"; };
+		094031462C7410C400E7427A /* TVShowServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowServiceImpl.swift; sourceTree = "<group>"; };
+		094031492C7410F400E7427A /* TVShowServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowServiceProtocol.swift; sourceTree = "<group>"; };
+		0940314D2C74126000E7427A /* AppStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyles.swift; sourceTree = "<group>"; };
+		0940314F2C7412A100E7427A /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		094031522C74138A00E7427A /* TVShowSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowSearchPresenter.swift; sourceTree = "<group>"; };
+		094031552C7413E600E7427A /* TVShowSearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowSearchInteractor.swift; sourceTree = "<group>"; };
+		094031572C74146600E7427A /* TVShowSearchInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowSearchInteractorProtocol.swift; sourceTree = "<group>"; };
+		094031592C74154F00E7427A /* TVShowSearchRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowSearchRouterProtocol.swift; sourceTree = "<group>"; };
+		0940315B2C74170400E7427A /* URLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
+		0940315E2C74177400E7427A /* TVShowSearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowSearchRouter.swift; sourceTree = "<group>"; };
+		094031602C74187E00E7427A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		094299582C740F870056F6D1 /* CombineAPICallVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineAPICallVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0942995B2C740F870056F6D1 /* CombineAPICallVIPERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineAPICallVIPERApp.swift; sourceTree = "<group>"; };
 		0942995D2C740F870056F6D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +94,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		094031422C74104700E7427A /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				094031432C74106E00E7427A /* TVShowSearch.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		094031452C7410B100E7427A /* NetworkingService */ = {
+			isa = PBXGroup;
+			children = (
+				094031462C7410C400E7427A /* TVShowServiceImpl.swift */,
+			);
+			path = NetworkingService;
+			sourceTree = "<group>";
+		};
+		094031482C7410DC00E7427A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				094031492C7410F400E7427A /* TVShowServiceProtocol.swift */,
+				094031572C74146600E7427A /* TVShowSearchInteractorProtocol.swift */,
+				094031592C74154F00E7427A /* TVShowSearchRouterProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0940314B2C7411DC00E7427A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0942995D2C740F870056F6D1 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0940314C2C7411F400E7427A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0940314D2C74126000E7427A /* AppStyles.swift */,
+				0940314F2C7412A100E7427A /* AppColors.swift */,
+				0940315B2C74170400E7427A /* URLConstants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		094031512C74137300E7427A /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				094031522C74138A00E7427A /* TVShowSearchPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		094031542C7413BF00E7427A /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				094031552C7413E600E7427A /* TVShowSearchInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		0940315D2C74175900E7427A /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				0940315E2C74177400E7427A /* TVShowSearchRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
 		0942994F2C740F870056F6D1 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +185,16 @@
 		0942995A2C740F870056F6D1 /* CombineAPICallVIPER */ = {
 			isa = PBXGroup;
 			children = (
+				094031602C74187E00E7427A /* Info.plist */,
+				0940315D2C74175900E7427A /* Routers */,
+				094031542C7413BF00E7427A /* Interactors */,
+				094031512C74137300E7427A /* Presenters */,
+				0940314C2C7411F400E7427A /* Utilities */,
+				0940314B2C7411DC00E7427A /* Views */,
+				094031482C7410DC00E7427A /* Protocols */,
+				094031452C7410B100E7427A /* NetworkingService */,
+				094031422C74104700E7427A /* Entity */,
 				0942995B2C740F870056F6D1 /* CombineAPICallVIPERApp.swift */,
-				0942995D2C740F870056F6D1 /* ContentView.swift */,
 				0942995F2C740F8B0056F6D1 /* Assets.xcassets */,
 				094299612C740F8B0056F6D1 /* Preview Content */,
 			);
@@ -257,8 +356,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				094031472C7410C400E7427A /* TVShowServiceImpl.swift in Sources */,
+				094031442C74106E00E7427A /* TVShowSearch.swift in Sources */,
+				0940315A2C74154F00E7427A /* TVShowSearchRouterProtocol.swift in Sources */,
+				0940314A2C7410F400E7427A /* TVShowServiceProtocol.swift in Sources */,
+				094031582C74146600E7427A /* TVShowSearchInteractorProtocol.swift in Sources */,
+				094031562C7413E600E7427A /* TVShowSearchInteractor.swift in Sources */,
+				0940314E2C74126000E7427A /* AppStyles.swift in Sources */,
+				094031502C7412A100E7427A /* AppColors.swift in Sources */,
 				0942995E2C740F870056F6D1 /* ContentView.swift in Sources */,
+				0940315C2C74170400E7427A /* URLConstants.swift in Sources */,
 				0942995C2C740F870056F6D1 /* CombineAPICallVIPERApp.swift in Sources */,
+				0940315F2C74177400E7427A /* TVShowSearchRouter.swift in Sources */,
+				094031532C74138A00E7427A /* TVShowSearchPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +535,7 @@
 				DEVELOPMENT_TEAM = VS54H3MNP6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CombineAPICallVIPER/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +565,7 @@
 				DEVELOPMENT_TEAM = VS54H3MNP6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CombineAPICallVIPER/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
